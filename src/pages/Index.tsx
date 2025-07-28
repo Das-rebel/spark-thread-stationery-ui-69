@@ -1,7 +1,6 @@
 import { AppLayout } from "@/components/layout/AppLayout";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { NeuralNetworkView } from "@/components/brain/NeuralNetworkView";
 import { MessageCircle, Brain, Sparkles, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import heroImage from "@/assets/japanese-hero.jpg";
@@ -113,11 +112,6 @@ const Index = () => {
             </Card>
           </div>
 
-          {/* Knowledge Network Visualization */}
-          <Card className="paper-card p-5">
-            <h2 className="text-xl font-display font-bold text-ink mb-4 text-center">Knowledge Network</h2>
-            <NeuralNetworkView />
-          </Card>
         </div>
       </div>
     </AppLayout>
